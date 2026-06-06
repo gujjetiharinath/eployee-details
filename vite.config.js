@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/react-dev-cards' // Mee file lo unna react plugin untundi
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/eployee-details/',  // <--- Ee line thappakunda add cheyandi!
 })
