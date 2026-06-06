@@ -3,5 +3,5 @@ import react from '@vitejs/react-dev-cards' // Mee file lo unna react plugin unt
 
 export default defineConfig({
   plugins: [react()],
-  base: '/eployee-details/',  // <--- Ee line thappakunda add cheyandi!
+  base: '/eployee-details/',  
 })
